@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: hidden;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(46, 46, 46);
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Box {
+  list-style: none;
+}
+.container {
+  list-style: none;
+  gap: 5px;
+}
+.box {
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(46, 46, 46);
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 10px;
+}
+.box:focus {
+  outline: none;
+}
+.box:active {
+  scale: 0.98;
+}
+.box:active {
+  scale: 0.98;
+}
+.box:hover {
+  background-color: purple;
+  border-radius: 5px;
+}
+
+button {
+
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+  padding-left: 0; /* Сдвигаем список влево */
+ }
